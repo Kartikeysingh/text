@@ -1,0 +1,108 @@
+access_modifier ClassName()
+{
+
+}
+method overloading
+\\
+method name will be same
+area of circle===>radius
+public void area(double radius)
+area of square ===>
+public void area(int s)
+{
+}
+public void 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Calling a Constructor
+ new ClassName(parameters);//
+Class A
+{
+
+
+}
+Class B:A
+{
+}
+
+
+
+
+////////////////////////////////////
+Class student
+{
+int RollNumber;
+string name;
+public void getdata ()
+{
+Console.Writeline(
+}
+public void Showdata()
+{
+Cw();
+cw();
+}
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Class Studentmarks:student
+{
+public void getmarks()
+{
+Console.writellIne
+}
+}
+/////////////////////////////////////////////////////////
+Inheritance
+1.Single/Simple---->One base class and one derived class
+2.Multilevel------->Chain single inheritance.
+3.Multiple---------->more than one base class & and only one derived class
+Note: in C#,classes do not support Multiple Inheritance(Diamond problem).
+4.Hierarchial-------->tree structure.
+5.Hybrid------------->Combination of any two inheritance
+
+
+
+////////////////////////////////////////////////////////////////
+by default first constructor of base class is called then constructor of derived class is called
+
+
+for obtaining parameterized constructor of base class we use Base keyword
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+With respect to classes:
+
+Access Modifiers:
+public-----> can acess from anywhere
+private---->within a class
+protected --->within a class and derived class
+internal---->within same namespace or project.
+internal protected--->within same namespace and inherited namespace
+
+
+if not mentioned than it is private
+Classes ,methods and variables can have access modifier.
+Classes can have only two types of access modifier i.e.
+->internal (by default)
+->public
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+namespace?? collection of classes.
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////4
+
+
+How to pass parameter from derived class to base class constructor.
+////////////////////////////////////////////////////////////////////////////////////////
+Overriding:Base class and derived class has same method name.
+class does not support multiple inheritance.
+
+Class Splendor
+{
+Same()//derived class can override the method.
+}
+
+Class splendor++:splendor
+{
+
+}
